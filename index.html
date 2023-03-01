@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Модальное окно</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<button class="btn" data-path="form-popup">Модальное окно</button>
+
+
+	<div class="modals">
+		<div class="modal-overlay">
+			<div class="modal" data-target="form-popup">
+				<div class="left">
+				</div>
+				<div class="right">
+					<div class="content">
+						<h2 class="header">мастер-класс?</h2>
+						<p class="content__subheader content__subheader_mt">Скачайте пошаговый план</p>
+						<h2 class="title content__title">«Как собственнику выйти из операционки»</h2>
+						<p class="content__subheader">и познакомьтесь с этим инструментом <br />
+							<span class="text-bold">прямо сейчас</span>
+						</p>
+						<p class="content__descr">10 шагов помогут создать системный бизнес</p>
+						<div class="content__reply">
+							<label class="content__label">Для получения бонуса введите email
+								<input type="email" placeholder="Ваш e-mail" class="input content__input">
+							</label>
+							<button class="btn content__btn">Скачать пошаговой план</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
